@@ -7,3 +7,14 @@
 //
 
 import Foundation
+struct Story {
+    var title :String = ""
+    var left :String = ""
+    var right :String = ""
+    init(t:String,l:String,r:String)
+    {
+        title = t
+        left=l
+        right=r
+    }
+}
